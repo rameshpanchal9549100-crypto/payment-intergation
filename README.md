@@ -109,13 +109,6 @@ Use **Postman** or browser:
 
 ---
 
-## ⚠️ Common Issues
-
-### ❌ Backend not uploading to Git
-
-* Make sure `.git` is not inside backend folder
-* Run:
-
 ```bash
 git add backend
 git commit -m "Added backend"
@@ -135,7 +128,7 @@ git push
 
 ## 👨‍💻 Author
 
-* Your Name
+* Ramesh Panchal
 
 ---
 
