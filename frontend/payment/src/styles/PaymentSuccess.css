@@ -1,0 +1,111 @@
+.payment-success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .payment-success-card {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  .payment-success-title {
+    font-size: 2rem;
+    color: #28a745;
+    margin-bottom: 10px;
+  }
+  
+  .payment-success-message {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .payment-success-reference {
+    font-size: 1rem;
+    color: #333;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+
+
+  /* Container - full screen center */
+.payment-success-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e0f7fa, #e8f5e9);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card */
+.payment-success-card {
+  position: absolute;
+}
+
+/* Main content box */
+.payment-success-container > div,
+.payment-success-container h1,
+.payment-success-container p {
+  text-align: center;
+}
+
+/* Inner card styling */
+.payment-success-container {
+  flex-direction: column;
+}
+
+/* Success Card Box */
+.payment-success-container::before {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  z-index: -1;
+}
+
+/* Title */
+.payment-success-title {
+  font-size: 28px;
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+/* Message */
+.payment-success-message {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Reference ID */
+.payment-success-reference {
+  font-size: 14px;
+  color: #333;
+  background: #f1f8e9;
+  padding: 8px 12px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+/* Optional checkmark icon */
+.payment-success-title::before {
+  content: "✔";
+  display: block;
+  font-size: 40px;
+  color: #4caf50;
+  margin-bottom: 10px;
+}
